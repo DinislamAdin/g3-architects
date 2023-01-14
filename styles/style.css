@@ -1,0 +1,127 @@
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans&display=swap');
+
+/* body styles */
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*-------------------- 
+     header styles
+--------------------- */
+.header {
+    background-color: rgba(255, 144, 14, 0.1);
+    margin: 0 170px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar ul {
+    display: flex;
+}
+
+/*---------------------------- 
+     header-banner styles
+----------------------------- */
+
+.header-banner {
+    text-align: center;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+}
+
+.banner-info {
+    font-size: 16px;
+    color: #727272;
+    margin: 10px;
+}
+
+.btn-primary {
+    background: #FF900E;
+    border-radius: 8px;
+    color: #ffff;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 15px;
+    border: 0;
+    margin-bottom: 20px;
+}
+
+.header-banner img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+/*------------------------- 
+     Quick list Features
+--------------------------- */
+
+.quick-list {
+    display: flex;
+    margin: 30px 170px;
+}
+
+.quick-list-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+}
+
+.quick-list-img img {
+    width: 230px;
+    height: 230px;
+}
+
+.quick-list-info {
+    margin: 80px 40px;
+}
+
+.quick-list-title {
+    font-weight: 700;
+    font-size: 35px;
+    color: #727272;
+}
+
+.our {
+    font-weight: 900;
+    font-size: 35px;
+    color: #131313;
+}
+
+.features {
+    font-weight: 800;
+    font-size: 35px;
+    color: #FF900E;
+}
+
+.quick-list-description {
+    color: #727272;
+    font-size: 14px;
+}
+
+/*-------------------- 
+features styles
+---------------------- */
+
+.features-section{
+    display: flex;
+    margin: 130px 150px;
+    gap: 20px;
+}
+.features-img img{
+    width: 450px;
+
+}
+.features-info{
+    box-shadow: 5px 5px 5px 5px whitesmoke;
+    border-radius: 5px;
+    background-color: #ffff;
+}
