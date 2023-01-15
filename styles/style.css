@@ -19,7 +19,7 @@ body {
 .header-container {
     display: flex;
     justify-content: space-between;
-    margin: 50px 170px;
+    margin: 0 170px;
 }
 
 .nav-bar ul {
