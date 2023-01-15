@@ -1,7 +1,10 @@
+* {
+    margin: 0,
+}
+
 /* fonts */
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans&display=swap');
-
 
 /* body styles */
 
@@ -26,10 +29,12 @@ body {
     display: flex;
     gap: 0 30px;
 }
-.nav-bar li{
+
+.nav-bar li {
     list-style: none;
 }
-.nav-bar a{
+
+.nav-bar a {
     text-decoration: none;
 }
 
@@ -173,11 +178,13 @@ features styles
     font-size: 30px;
     padding-bottom: 5px;
 }
-.Experience{
+
+.Experience {
     padding-top: -20px;
     font-size: 15px;
     font-weight: 400;
 }
+
 .btn-year:hover {
     background-color: #fdb96c;
 }
@@ -220,11 +227,13 @@ features styles
     gap: 50px;
     justify-content: space-between;
 }
-.Sponspors-title{
+
+.Sponspors-title {
     font-size: 30px;
     font-weight: 800;
     margin-bottom: 30px;
 }
+
 .sponspors-img img {
     width: 120px;
     -webkit-filter: grayscale(100%);
@@ -248,57 +257,70 @@ features styles
 ----------------------- */
 
 @media screen and (max-width: 576px) {
-    .header-container{
-        margin: 50px 0;
+    .header-container {
+        margin: 0 0 30px;
         flex-direction: column;
     }
-    .nav-bar ul{
+
+    .nav-bar ul {
         flex-direction: column;
     }
+
     .header-banner {
         text-align: center;
         margin: 50px 0;
     }
+
     .quick-list {
         flex-direction: column;
         margin: 20px 0 0;
     }
+
     .quick-list-img {
         grid-template-columns: repeat(1, 1fr);
         justify-items: center;
     }
+
     .quick-list-img img {
         width: 300px;
         height: 300px;
     }
+
     .features-section {
         flex-direction: column;
         align-items: center;
         margin: 40px 0;
         padding: 15px;
     }
+
     .button {
         margin: 20px;
     }
+
     .some-facts {
         margin: 150px 0;
         padding: 15px;
     }
+
     .some-fact {
         flex-direction: column;
         align-items: center;
     }
-    .Our-Sponspors{
+
+    .Our-Sponspors {
         flex-direction: column;
         align-items: center;
     }
+
     .sponspors-section {
         margin: 50px 0;
     }
-    .footer{
+
+    .footer {
         margin: 50px 0;
     }
 }
-.hide{
+
+.hide {
     display: none;
 }
